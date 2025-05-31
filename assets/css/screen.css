@@ -133,6 +133,25 @@ body {
     transform: translateY(-2px);
 }
 
+/* Resume Button Styling */
+.resume-btn {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    position: relative;
+    overflow: hidden;
+}
+
+.resume-btn:hover {
+    background: linear-gradient(135deg, #5a6fd8 0%, #6a4190 100%);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+}
+
+.resume-btn::before {
+    content: '📄';
+    margin-right: 8px;
+}
+
 /* Section Styling */
 .section {
     padding: 80px 0;
